@@ -40,15 +40,20 @@ body {
     position: absolute;
     top: 70px;
     right: 0;
-    width: 100%;
+    margin-right: 2.5rem;
     z-index: 1;
+}
+.mobile-menu a:hover{
+    color: grey;
 }
 .mobile-menu a {
     padding: 10px 0;
     width: 100%;
-    text-align: center;
-    border-top: 10px solid #333;
-    margin-top: 20%;
+    text-align: right;
+    margin-right: 6%;
+    text-decoration: none;
+    color: white;
+    border-bottom: 0.3px solid rgb(77, 75, 75);
 }
 .content-section {
     display: flex;
